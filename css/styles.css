@@ -5,94 +5,9 @@
 /* Footer #2E2F42 */
 /* Grid 1128 */
 
-/* ====================== Basic Reset =============================*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-ul,ol {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  text-decoration: none;
-}
-img {
-  width: 100%;
-  display: block;
-}
-button{
- cursor: pointer;
-}
-.link{
-  text-decoration: none;
-}
-.address {
-  font-style: normal;
-}
-
 /* ====================== Inheritance =============================*/
-:root {
-  --text-color:#434455;
-  --text-color-secindary: #2E2F42;
-  --akcent-color:#4D5AE5;
-  --hover-color:#404bbf;
-
-  --logo-color:#2e2f42;
-  --logo-color-footer:#F4F4FD;
-
-  --bg-color:#FFFFFF ;
-  --bg-color-secindary:#F4F4FD;
-  
-  --hero-color:#2E2F42;
-  --footer-color:#2E2F42;
-  --footer-text:#F4F4FD;
-
-  --icon-color:#8e8f99;
-}
-
-body {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  color: var(--text-color);
-  background-color: var(--bg-color);
-  }
-
-/* ====================== CONTAINER ================================*/
-.container { 
-  width: 100%;
-  max-width: 1158px;
-  padding-left:15px; 
-  padding-right: 15px;
-  margin: 0 auto;
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.is-hidden{
-  opacity:0;
-  visibility: hidden;
-  pointer-events:none;
-}
 /* ====================== HEADER =====================================*/
-.header{
+/* .header{
   border-bottom: 1px solid  #E7E9FC;
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
@@ -188,18 +103,16 @@ body {
 }
 .address .link:hover,.link:focus{
   color:var(--hover-color);
-}
+} */
  
 /* ====================== HERO ==========================================*/
-.hero{
-  /* max-width: 1440px; */
+/* .hero{
   padding-top: 188px;
   padding-bottom: 188px;
   margin: 0 auto;
 
   background-color: var(--hero-color);
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7), 
-rgba(46, 47, 66, 0.7)),url(../images/hero.jpg);
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../../images/hero/hero-desktop.jpg);
   background-repeat: no-repeat; 
   background-position: center;
   background-size: cover;
@@ -241,7 +154,7 @@ rgba(46, 47, 66, 0.7)),url(../images/hero.jpg);
 .hero .button:hover, .button:focus{
    background-color:var(--hover-color);
    border: transparent;
-}
+} */
 
 /* ====================== ADVANTAGES ==========================================*/
 .advantages {

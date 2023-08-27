@@ -1,0 +1,18 @@
+:root {
+  --text-color:#434455;
+  --text-color-secindary: #2E2F42;
+  --akcent-color:#4D5AE5;
+  --hover-color:#404bbf;
+
+  --logo-color:#2e2f42;
+  --logo-color-footer:#F4F4FD;
+
+  --bg-color:#FFFFFF ;
+  --bg-color-secindary:#F4F4FD;
+  
+  --hero-color:#2E2F42;
+  --footer-color:#2E2F42;
+  --footer-text:#F4F4FD;
+
+  --icon-color:#8e8f99;
+}

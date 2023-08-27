@@ -12,6 +12,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,34 +25,110 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="nav">
+        <div class="header-menu">
           <a class="logo-header link" href="./index.html"
             >Web<span class="acsent">Studio</span></a
           >
-          <ul class="list">
-            <li class="item">
-              <a class="link current" href="./index.html">Studio</a>
+          <button
+            class="btn-mobile-burger js-open-menu"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            data-menu-open
+          >
+            <svg class="btn-icon" width="32" height="22">
+              <use href="./images/icons.svg#icon-mobile-hamburger"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="header-wraper js-menu-container" data-menu>
+          <nav class="nav">
+            <button
+              class="btn-mobile-burger-close"
+              type="button"
+              data-menu-close
+            >
+              <svg class="btn-icon-close" width="24" height="24">
+                <use
+                  href="./images/icons.svg#icon-close-mobile-hamburger"
+                ></use>
+              </svg>
+            </button>
+            <ul class="list">
+              <li class="item">
+                <a class="link current" href="./index.html">Studio</a>
+              </li>
+              <li class="item">
+                <a class="link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="item">
+                <a class="link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="address">
+            <ul class="list">
+              <li class="item">
+                <a class="link email" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="item">
+                <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              </li>
+            </ul>
+          </address>
+          <ul class="header-social-list">
+            <li class="social-list-item">
+              <a class="link" href="">
+                <svg
+                  class="social-icon"
+                  width="16"
+                  height="16"
+                  aria-label="instagram icon"
+                >
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="item">
-              <a class="link" href="./portfolio.html">Portfolio</a>
+            <li class="social-list-item">
+              <a class="link" href="">
+                <svg
+                  class="social-icon"
+                  width="16"
+                  height="16"
+                  aria-label="twitter icon"
+                >
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="item">
-              <a class="link" href="">Contacts</a>
+            <li class="social-list-item">
+              <a class="link" href="">
+                <svg
+                  class="social-icon"
+                  width="16"
+                  height="16"
+                  aria-label="facebook icon"
+                >
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a class="link" href="">
+                <svg
+                  class="social-icon"
+                  width="16"
+                  height="16"
+                  aria-label="linkedin icon"
+                >
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </nav>
-        <address class="address">
-          <ul class="list">
-            <li class="item">
-              <a class="link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="item">
-              <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-            </li>
-          </ul>
-        </address>
+        </div>
       </div>
     </header>
     <main class="main">
@@ -63,7 +140,7 @@
           </button>
         </div>
       </section>
-      <section class="advantages">
+      <!-- <section class="advantages">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
           <ul class="list">
@@ -117,8 +194,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="doing">
+      </section> -->
+      <!-- <section class="doing">
         <div class="container">
           <h2 class="title">What are we doing</h2>
           <ul class="list">
@@ -151,8 +228,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="team">
+      </section> -->
+      <!-- <section class="team">
         <div class="container">
           <h2 class="title">Our Team</h2>
           <ul class="list">
@@ -410,8 +487,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="customers">
+      </section> -->
+      <!-- <section class="customers">
         <div class="container">
           <h2 class="title">Customers</h2>
           <ul class="list">
@@ -459,9 +536,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <div class="wripper">
           <a class="logo-footer link" href="./index.html"
@@ -531,8 +608,8 @@
           </form>
         </div>
       </div>
-    </footer>
-    <div class="backdrop is-hidden" data-modal>
+    </footer> -->
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="close-button" type="button" data-modal-close>
           <svg class="icon" width="8" height="8">
@@ -615,7 +692,8 @@
           </button>
         </form>
       </div>
-    </div>
+    </div> -->
     <script src="./js/modal.js"></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
