@@ -157,7 +157,7 @@
 } */
 
 /* ====================== ADVANTAGES ==========================================*/
-.advantages {
+/* .advantages {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -197,7 +197,7 @@
 .advantages .text{
   max-width: 264px;
   color: var(--text-color);
-}
+} */
 
 /* ====================== WHAT WE ARE DOING ==========================================*/
 .doing{
