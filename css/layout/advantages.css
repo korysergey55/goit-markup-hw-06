@@ -47,8 +47,7 @@
   text-align: left;
 }
 .advantages .text{
-  max-width: 264px;
-  color: var(--text-color);
+ color: var(--text-color);
 }
 }
 

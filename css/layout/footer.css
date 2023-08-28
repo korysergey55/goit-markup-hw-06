@@ -108,9 +108,9 @@
 }
 
 .footer-form-input{
-  /* width: 100%;
-  max-width: 398px; */
-  width: 398px;
+  width: 100%;
+  min-width: 280px;
+  max-width: 398px;
   height: 40px;
   padding: 8px 16px;
 
@@ -178,7 +178,9 @@
    margin: 0;
    margin-bottom: 16px;
 }
-
+.social-footer{
+  margin: 0;
+}
 .social-footer .social-list .link{
   transition-property: background-color;
   transition-duration: 250ms;
@@ -238,7 +240,7 @@
 }
 
 .footer-form-wripper{
-  margin-left: 80px;
+  margin-left: auto;
 }
 
 .footer-form-title{
