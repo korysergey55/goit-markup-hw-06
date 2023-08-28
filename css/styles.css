@@ -225,7 +225,7 @@
  flex-basis: calc((100% - 3 * 16px) / 3)
 } */
 /* ====================== OUR TEAM ==========================================*/
-.team{
+/* .team{
   padding-top: 120px;
   padding-bottom: 120px;
 
@@ -309,9 +309,9 @@
 
  .social-icon{
   fill: var(--bg-color-secindary)
- }
+ } */
 /* ====================== CUSTUMERS ==========================================*/
-.customers{
+/* .customers{
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -366,9 +366,9 @@
 
  .customers .item .link .icon{
   fill:currentColor;
-}
+} */
 /* ====================== FOOTER ==========================================*/
-.footer{
+/* .footer{
   padding: 100px 0;
   background-color: var(--footer-color);
 }
@@ -494,8 +494,7 @@
 
   min-width: 165px;
   height: 40px;
-  /* padding: 24px 8px; */
-
+  
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; 
@@ -520,7 +519,7 @@
 .footer-btn-svg{
   margin-left: 16px;
   fill: var(--bg-color);
-}
+} */
 
 /* ====================== PORTFOLIO ==========================================*/
 .cards{
