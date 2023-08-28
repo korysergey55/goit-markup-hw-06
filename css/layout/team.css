@@ -1,0 +1,109 @@
+.team{
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: var(--bg-color-secindary);
+}
+.team .title{
+  margin-bottom: 72px;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; 
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: var(--text-color-secindary);
+}
+.team .list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 72px;
+}
+.team .list .item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);  
+
+  background-color: var(--bg-color);
+}
+.team .item .wripper{
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+.team .name{
+  margin-bottom: 8px;
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; 
+  letter-spacing: 0.02em;
+  text-align: center; 
+  color: var(--text-color-secindary);
+}
+.team .position{
+   margin-bottom: 8px;
+   text-align: center; 
+   color: var(--text-color);
+}
+.social-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.social-list .link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  width: 40px;
+  height: 40px;
+
+  background-color:var(--akcent-color);
+  border-radius:50%;
+ }
+.social-icon{
+  fill: var(--bg-color-secindary)
+ }
+
+@media screen and (min-width:768px) {
+
+.team .list{
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 64px 24px;
+}
+.team .list .item{
+  min-width: 264px;
+}
+.social-list .link{
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ }
+ .social-list .link:hover, .social-list .link:focus{
+  background-color:var(--hover-color)
+ }
+}
+
+@media screen and (min-width:1158px) {
+.team{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.team .list{
+  gap: 24px;
+}
+}

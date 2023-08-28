@@ -53,12 +53,11 @@
 }
 
 @media screen and (min-width:1158px) {
-   .advantages {
+.advantages {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 .advantages .list{
-  display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;

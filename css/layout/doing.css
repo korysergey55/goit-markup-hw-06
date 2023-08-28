@@ -1,0 +1,31 @@
+.doing{
+  display: none;
+}
+@media screen  and (min-width:1158px){
+.doing{
+  display: block;
+  padding-bottom: 120px;
+}
+.doing .title{
+  margin-bottom: 72px;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; 
+  letter-spacing: 0.72px;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--text-color-secindary);
+}
+.doing .list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.doing .list .item{
+ flex-basis: calc((100% - 3 * 16px) / 3)
+}
+
+}

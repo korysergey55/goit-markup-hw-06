@@ -200,7 +200,7 @@
 } */
 
 /* ====================== WHAT WE ARE DOING ==========================================*/
-.doing{
+/* .doing{
   padding-bottom: 120px;
 }
 .doing .title{
@@ -223,7 +223,7 @@
 }
 .doing .list .item{
  flex-basis: calc((100% - 3 * 16px) / 3)
-}
+} */
 /* ====================== OUR TEAM ==========================================*/
 .team{
   padding-top: 120px;
